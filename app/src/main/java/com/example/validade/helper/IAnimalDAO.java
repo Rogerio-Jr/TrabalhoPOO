@@ -1,4 +1,6 @@
-package com.example.validade;
+package com.example.validade.helper;
+
+import com.example.validade.model.Animal;
 
 import java.util.List;
 

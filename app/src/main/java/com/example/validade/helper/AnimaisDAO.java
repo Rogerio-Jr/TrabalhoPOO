@@ -1,4 +1,4 @@
-package com.example.validade;
+package com.example.validade.helper;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -6,10 +6,14 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.util.Log;
 
+import com.example.validade.helper.DbHelper;
+import com.example.validade.helper.IAnimalDAO;
+import com.example.validade.model.Animal;
+
 import java.util.ArrayList;
 import java.util.List;
 
-public class AnimaisDAO implements IAnimalDAO  {
+public class AnimaisDAO implements IAnimalDAO {
 
     private SQLiteDatabase escreve;
     private SQLiteDatabase le;

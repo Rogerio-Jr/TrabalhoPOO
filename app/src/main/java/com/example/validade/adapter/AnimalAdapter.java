@@ -1,16 +1,14 @@
-package com.example.validade;
+package com.example.validade.adapter;
 
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import androidx.annotation.NonNull;
-
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.w3c.dom.Text;
+import com.example.validade.R;
+import com.example.validade.model.Animal;
 
 import java.util.List;
 

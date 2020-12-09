@@ -1,4 +1,4 @@
-package com.example.validade;
+package com.example.validade.model;
 
 import java.io.Serializable;
 

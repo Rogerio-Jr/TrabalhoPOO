@@ -26,7 +26,7 @@ public class ConsultaActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_consulta);
 
-       recyclerView = findViewById(R.id.recyclerView);
+       recyclerView = findViewById(R.id.recyclerview);
 
 
 

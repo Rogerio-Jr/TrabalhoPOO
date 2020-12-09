@@ -10,6 +10,7 @@
     android:layout_marginTop="8dp"
     android:layout_marginEnd="8dp"
     android:layout_marginRight="8dp"
+    android:background="@color/black"
     android:layout_marginBottom="8dp"
     tools:context=".CadastroActivity">
 
@@ -19,6 +20,8 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:text="Cadastro de Animais"
+        android:textSize="24sp"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toTopOf="@+id/textInputLayout4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
